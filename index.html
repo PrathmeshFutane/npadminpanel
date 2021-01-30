@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="style.css">
+
+	<!-- bulma css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
+
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+
+<!-- hero section -->
+<div class="block">
+	<div class="hero has-background-success has-text-white">
+		<div class="hero-body">
+			<div class="container">
+				<div class="title has-text-white">
+					NagarPanchayat Teosa
+				</div>
+				<div class="subtitle has-text-white">
+					Welcome to Admin Panel
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- form -->
+<section class="container has-background-light mt-5">
+	<div class="columns">
+		<div class="column has-text-centered" >
+			<div class="block">
+				<figure class="image is-256x256">
+					<img src="images/login.jpg" alt="" >
+				</figure>
+			</div>
+			
+		</div>
+		<div class="column is-vertically-centered">
+			<form class="">
+				<div class="field mt-5 pt-5">
+					<label class="label">Username</label>
+					<div class="control has-icons-left has-icons-right">
+					  <input class="input is-primary" type="text" placeholder="username" value="" id="username">
+					  <span class="icon is-small is-left has-background-dark">
+						<i class="fas fa-user "></i>
+					  </span>
+					</div>
+				  </div>
+
+				  <div class="field ">
+					<label class="label">Password</label>
+					<div class="control has-icons-left has-icons-right">
+					  <input class="input is-primary" type="password" placeholder="password" value="" id="password">
+					  <span class="icon is-small is-left has-background-dark">
+						<i class="fas fa-user "></i>
+					  </span>
+					</div>
+				  </div>
+
+				  <div class="fields is-text-centered">
+					<button type="button" class="button is-primary" id="btn" onclick="formevent()">Submit</button>
+
+					<button type="reset" class="button is-primary">Reset</button>
+				  </div>
+				  
+			</form>
+
+			<div class="content field is-text-centered m-5 " id="home-btn">
+				<a href="home.html">
+					<button class="button is-primary d">
+						Go to home page
+					</button>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	
+</section>
+
+<footer>
+	<div class="footer-body has-background-dark has-text-white has-text-right is-3 mt-5 ">
+		<div class="content mr-5">
+			copywrite &copy webrash
+		</div>
+		
+	</div>
+</footer>
+
+
+<script src="script.js"></script>
+
+	
+</body>
+</html>

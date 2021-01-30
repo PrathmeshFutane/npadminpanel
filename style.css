@@ -1,0 +1,40 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+/* navbar */
+#mobile {
+	padding: 0px 0px;
+
+}
+
+footer {
+	margin: 0px auto;
+	width: 100vw;
+	height: 50px;
+
+}
+
+/* homebutton */
+#home-btn {
+	display: none;
+}
+
+/* box from home page */
+.box {
+	background: linear-gradient(rgb(110, 221, 82), rgb(48, 214, 48)) !important;
+	color: white !important;
+}

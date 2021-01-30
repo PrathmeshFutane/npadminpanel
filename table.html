@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Table format</title>
+	<link rel="stylesheet" href="style.css">
+
+	<!-- bulma css -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css" integrity="sha512-ZRv40llEogRmoWgZwnsqke3HNzJ0kiI0+pcMgiz2bxO6Ew1DVBtWjVn0qjrXdT3+u+pSN36gLgmJiiQ3cQtyzA==" crossorigin="anonymous" />
+
+	<!-- font-awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+</head>
+<body>
+	<!-- navbar -->
+     <section class="menubar ">
+        <nav class="navbar has-background-dark ">
+            
+            <div class="navbar-brand has-text-primary-light has-background-dark">
+                <a href="home.html" class="navbar-item has-text-primary-light is-size-4">
+                    नगरपंचायत तिवसा               
+                </a>
+                <a class="navbar-burger" id="mobile_menu">
+                    <i class="fa fa-bars fa-2x mt-2 has-text-primary-light"></i>
+                </a>
+            </div>
+            <div class="navbar-menu mobile " id="mobile" >
+                <div class="navbar-start">
+                </div>
+                <div class="navbar-end">
+                    <a  href="excel.html" class="navbar-item has-text-primary-light has-background-dark is-size-5">Veiw in Excel Sheet </a>
+                    <a href="table.html" class="navbar-item has-text-primary-light has-background-dark is-size-5"> View in Table Format </a>
+                    
+                </div>
+            </div>
+        </nav>
+    </section>
+    
+
+    <!-- hero section -->
+<div class="block mt-5">
+	<div class="hero has-background-success has-text-white">
+		<div class="hero-body">
+			<div class="container">
+				<div class="title has-text-white">
+					NagarPanchayat Teosa
+				</div>
+				<div class="subtitle has-text-white">
+					Welcome to Admin Panel
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+
+<!-- main section  -->
+<section class="">
+    <div class="block has-text-centered">
+        <a href="https://docs.google.com/spreadsheets/u/1/d/1-dtTiYK_vD5ES2wdPJfHkWvR6VxT_bx-w0dvOps6lKE/gviz/tq?tqx=out:html&tq&gid=1027238283" target="excelsheet">
+            <button class="button is-large has-background-success has-text-white">Generate Table</button>
+        </a>
+    </div>
+    <iframe frameborder="2" width="2000px" height="2000px" name="excelsheet"></iframe>
+</section>
+
+
+
+
+
+
+
+<!-- footer -->
+<!-- footer -->
+<footer>
+	<div class="footer-body has-background-dark has-text-white has-text-right is-3 mt-5 ">
+		<div class="content mr-5">
+			copywrite &copy webrash
+		</div>
+		
+	</div>
+</footer>
+             
+
+	<script src="script.js"></script>
+</body>
+</html>
